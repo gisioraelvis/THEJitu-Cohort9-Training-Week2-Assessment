@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+<!--  
+Question:
+Create a simple todo App that is: 
+Able to create a task with a title, description and Date (expected completion date)  
+Able to Show all created todos. 
+Able Delete one todo.  
+Able Delete All todos.   
+-->
+
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        <div class="form">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="description" placeholder="Description">
+            <input type="date" id="date">
+            <button id="add">Add</button>
+        </div>
+        <div class="todos">
+            <h2>Todo List</h2>
+            <div class="todo-list">
+                <div class="todo">
+                    <h3>Todo Title</h3>
+                    <p>Todo Description</p>
+                    <p>Todo Date</p>
+                    <button class="delete">Delete Todo</button>
+                </div>
+            </div>
+            <button id="delete-all">Delete All Todos</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
