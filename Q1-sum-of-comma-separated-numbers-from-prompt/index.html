@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comma Separated Words From Prompt</title>
+</head>
+<!--
+    Question:
+    Using a Prompt allow user to enter numbers separated by commas 
+    then print the sum of the numbers  
+-->
+
+<body>
+    <script>
+        let numbers = prompt("Enter numbers separated by commas");
+        let numbersArray = numbers.split(",");
+        let sum = 0;
+        for (let i = 0; i < numbersArray.length; i++) {
+            sum += parseInt(numbersArray[i]);
+        }
+        alert(sum);
+    </script>
+</body>
+
+</html>
