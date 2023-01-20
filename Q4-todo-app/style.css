@@ -46,7 +46,6 @@ h1 {
   cursor: pointer;
 }
 
-/* Sligtly raise the button and change color to green */
 .form button:hover {
   background-color: green;
   color: #fff;
